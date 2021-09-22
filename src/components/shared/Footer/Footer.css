@@ -1,0 +1,167 @@
+.footer {
+  width: 100%;
+}
+.mainFooter {
+  width: 100%;
+  background-color: #1e441f;
+}
+.footerContent {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footerAbout,
+.footerQuickLinks,
+.footerOfficeHour,
+.footerContact {
+    width: 25%;
+    padding: 0 10px;
+}
+.footergHeading{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+    border-bottom: 2px solid #fff;
+    font-family: 'Raleway', sans-serif;
+}
+.footerAbout p{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #d1d1d1e1;
+    text-align: justify;
+}
+.footerQuickLinks ul{
+    margin-top: 15px;
+}
+.footerQuickLinks ul .link{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #e8ebe9;
+    margin-bottom: 5px;
+}
+.footerQuickLinks ul .link:hover{
+    text-decoration: underline;
+}
+.officeHourDetails{
+    margin-top: 15px;
+}
+
+.hourDay{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.hourDayIcon{
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 7px;
+}
+.hourDayIcon i {
+    font-size: 29px;
+    color: #1e441f;
+}
+.hourDayText{
+    font-size: 16px;
+    color: #e8ebe9;
+}
+.hourDayText span{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.contactInfodetails{
+    margin-top: 15px;
+}
+.contactInfoItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contactInfoIcon{
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 7px;
+}
+.contactInfoIcon i {
+    font-size: 16px;
+    color: #1e441f;
+}
+.contactInfoText{
+    font-size: 16px;
+    color: #e8ebe9;
+    cursor: pointer;
+}
+.contactInfoText p span{
+    font-weight: 600;
+}
+#addressInfo{
+    display: flex;
+    align-items: flex-start;
+}
+#contactInfoIcon{
+    width: 35px;
+}
+#locationDetails p{
+    font-size: 14px;
+}
+#locationDetails p span{
+    font-weight: 600;
+    font-size: 16px;
+}
+.footerSocialLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.facebookLink{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    margin: 5px 10px;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.facebookLink a{
+    font-size: 25px;
+}
+.facebookLink a i{
+    color: #1e441f;
+}
+.facebookLink:hover{
+    background-color:#82C91E;
+}
+.facebookLink:hover a i{
+    color: #fff;
+}
+
+.copyRightFooter{
+    background-color: #0f3f0f;
+}
+.copyRightText{
+    padding: 10px 23px !important;
+}
+.copyRightText p{
+    color: rgba(218, 216, 216, 0.815);
+    font-size: 14px;
+    font-weight: 400;
+}
+.copyRightText p span{
+    color: #fff;
+    font-weight: 600;
+}

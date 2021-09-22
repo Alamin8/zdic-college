@@ -1,0 +1,14 @@
+.slider {
+  width: 100%;
+  height: calc(100vh - 218px);
+}
+.sliderAll {
+  width: 100%;
+}
+.sliderAll img {
+  width: 100%;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

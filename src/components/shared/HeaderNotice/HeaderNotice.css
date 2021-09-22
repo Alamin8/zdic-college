@@ -1,0 +1,35 @@
+.header-notice{
+    width: 100%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    display: flex;
+}
+.header-notice-title{
+    width: 15%;
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 22px;
+    font-weight: 700;
+    word-spacing: 3px;
+    text-align: center;
+}
+.header-notice-details{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.link{
+    color: #0274be;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.link img{
+    margin-right: 5px;
+    margin-left: 30px;
+}
+.link:hover{
+    text-decoration: underline;
+    color: #3a3a3a;
+}

@@ -1,0 +1,114 @@
+.latestInfo {
+  background-color: #f9f9f9;
+  width: 100%;
+}
+.latestInfo-heading {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.latestInfo-heading span {
+  color: #1e441f;
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  border-bottom: 2px solid #1e441f;
+}
+.latestInfoContent {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.latestInfoNotice,
+.latestInfoEvent,
+.latestInfoLinks {
+  width: 32%;
+  height: 350px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 7px;
+}
+.latestInfoLinks{
+    width: 26%;
+}
+.NoticeName {
+  width: 100%;
+  background-color: #3e7440;
+  padding: 12px 12px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  letter-spacing: 1px;
+}
+.allNotice , .allEvents{
+  width: 100%;
+  height: 295px;
+  padding: 5px 10px;
+}
+.allLinks{
+    width: 100%;  
+    padding: 5px 10px;
+}
+.allLinks a{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+}
+.allLinks a img{
+    height: 65px;
+}
+.marquee {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+.marquee:before,
+.marquee:after {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 30px;
+  content: "";
+  z-index: 1;
+}
+.marquee__content {
+  width: 100%;
+  display: flex;
+  line-height: 30px;
+  animation: marquee 20s linear infinite forwards;
+}
+.marquee__content:hover {
+  animation-play-state: paused;
+}
+.list-inline {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list-inline li {
+  background-color: rgba(230, 230, 230, 0.822);
+  display: block;
+  padding: 9px;
+  margin: 7px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.list-inline li:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+
+@keyframes marquee {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-66.6%);
+  }
+}
