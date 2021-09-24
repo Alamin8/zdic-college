@@ -1,14 +1,9 @@
 .video-responsive {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
-  }
-  
-  .video-responsive iframe {
-    left: 0;
-    top: 0;
-    height: auto;
-    width: 280px;
-    position: absolute;
-  }
+  width: 330px !important;
+  height: 200px !important;
+  padding: 15px;
+}
+.video-responsive iframe {
+  width: 100%;
+  height: 100%;
+}

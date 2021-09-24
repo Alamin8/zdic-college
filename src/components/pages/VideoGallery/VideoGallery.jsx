@@ -5,7 +5,7 @@ import Header from "../../shared/Header/Header";
 import YoutubeEmbed from "../../shared/YoutubeEmbed/YoutubeEmbed";
 
 const VideoGallery = () => {
- const embedID = ["nc5Lj90BzSQ", "MDhxgMAqOpM", "r8pmGSLbVS4","nc5Lj90BzSQ", "MDhxgMAqOpM", "r8pmGSLbVS4"]
+ const embedID = ["nc5Lj90BzSQ", "MDhxgMAqOpM", "r8pmGSLbVS4","nc5Lj90BzSQ", "MDhxgMAqOpM", "r8pmGSLbVS4", "MDhxgMAqOpM", "r8pmGSLbVS4"]
   return (
     <>
       <Header />
