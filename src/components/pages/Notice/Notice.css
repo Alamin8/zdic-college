@@ -1,0 +1,101 @@
+.notice {
+  width: 100%;
+  counter-reset: Serial; 
+}
+.noticeHeading {
+  text-align: center;
+}
+.noticeHeading span {
+  color: #1e441f;
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  border-bottom: 2px solid #1e441f;
+}
+.noticeTable{
+    margin-top:45px;
+}
+.noticeHeaderSn{
+    width: 6%;
+    
+}
+.noticeHeaderTitle{
+    width: 50%;
+}
+.noticeHeaderPublished{
+    width: 20%;
+}
+.noticeHeaderFile, .noticeHeaderDownload{
+    width: 12%;
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+    color: #444;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.fl-table td, .fl-table th {
+    text-align: left;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #036B96;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px !important;
+}
+
+
+.fl-table tbody tr:nth-child(odd) {
+    color: #444;
+    background: #f9f9f9;
+}
+
+.fl-table tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+.fl-table tbody tr td{
+    font-size: 14px; 
+}
+.fl-table tbody tr td .link{
+    color: inherit;
+}
+
+.fl-table tbody tr td:first-child:before
+{
+  counter-increment: Serial; 
+  content:"" counter(Serial); 
+}
+.navigate{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: right;
+}
+.navigate .link{
+    width: 42px;
+    height: 40px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #2ba7dd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    text-decoration: none;
+}
+.navigate .link:hover{
+    background-color: #2ba8ddce;
+}

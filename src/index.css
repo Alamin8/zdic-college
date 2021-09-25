@@ -8,6 +8,7 @@
 
 body{
   font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 .section-container{
@@ -15,3 +16,5 @@ body{
   max-width: 65rem;
   margin: 0 auto;
 }
+
+/* font-family: "Raleway", sans-serif; */
